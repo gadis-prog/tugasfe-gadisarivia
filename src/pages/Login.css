@@ -1,0 +1,122 @@
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+/* Login Container */
+.login-container {
+  width: 500px;
+    margin: 20px auto 0 auto; 
+    padding: 40px;
+    text-align: center;
+    background-color: #7bdbdfa4;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px ;
+}
+
+/* Heading */
+h1 {
+  color: #25b4f7;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px #ffc0cb;
+  position: relative;
+  z-index: 1;
+}
+
+/* Error Message */
+.error {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  color: #61a1d6;
+  margin-bottom: 6px;
+}
+
+/* Input Fields Styling */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 2px solid #73c0e4;
+  border-radius: 12px;
+  background-color: #fffdf7;
+  outline: none;
+  transition: all 0.3s ease;
+  position:relative;
+  z-index: 1;
+}
+
+/* Input Focus Effect */
+.form-group input:focus {
+  border-color: #ad0d1a;
+  background-color: #fff0f3;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 14px;
+  background-color: #699eff;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #86b9f3;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(255, 105, 180, 0.4);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Animation for Bounce In */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50px);
+  }
+  60% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

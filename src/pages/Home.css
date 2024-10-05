@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px; 
+    background-color: #7bdbdfa4;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 600x; 
+    margin: 20px auto; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .profile-image {
+    border-radius: 5px; 
+    width: 150px; width: 200px;
+    height: auto;
+    border: 5px solid #3b99a0; /* Warna bingkai */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    margin-right: 30px;
+    height: 250px; 
+    margin-right: 35px; 
+  }
+  
+  .profile-info {
+    max-width: 600px; 
+  }
+  
+  h2 {
+    margin-bottom: 20px; 
+    display: inline;
+  }
+  
+  p {
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #3b99a0; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .profile-image {
+      margin-bottom: 15px; 
+    }
+  }

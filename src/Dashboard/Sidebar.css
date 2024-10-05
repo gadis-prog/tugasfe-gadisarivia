@@ -1,0 +1,61 @@
+.sidebar {
+    width: 270px;
+    background-color: #3b99a0;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Pusatkan semua elemen di sidebar secara horizontal */
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center; /* Pastikan teks di tengah */
+    color: aliceblue;
+    width: 100%; /* Mengambil lebar penuh sidebar */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 15px;
+    margin-top: auto;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #61aaa6;
+    border-radius: 5px;
+  }
+  
+  .sidebar ul li svg {
+    margin-right: 10px;
+  }
+  
+  .logout-btn {
+    background-color: #6bdfee;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: auto; /* Ini akan mendorong tombol logout ke bawah */
+  }
+  
+  .logout-btn:hover {
+    background-color: #3f9be6;
+  }
+  

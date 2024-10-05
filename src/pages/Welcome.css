@@ -1,0 +1,52 @@
+/* Welcome.css */
+.welcome-container {
+    background-color: #7bdbdfa4;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .welcome-message {
+    margin-bottom: 30px;
+  }
+  
+  .welcome-message h1 {
+    color: #2c7878;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .welcome-message p {
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  
+  .btn-primary {
+    background-color: #4a8b8b;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #397373;
+  }
+  
+  .btn-secondary {
+    background-color: #fff;
+    color: #4a8b8b;
+    border: 2px solid #4a8b8b;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #f0f0f0;
+  }
+  
